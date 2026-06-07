@@ -109,7 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: little-man-moving_0
+      name: little-man-moving_3
       rect:
         serializedVersion: 2
         x: 72
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: little-man-moving_1
+      name: little-man-moving_0
       rect:
         serializedVersion: 2
         x: 328
@@ -153,7 +153,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: little-man-moving_2
+      name: little-man-moving_1
       rect:
         serializedVersion: 2
         x: 72
@@ -175,7 +175,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: little-man-moving_3
+      name: little-man-moving_2
       rect:
         serializedVersion: 2
         x: 328
@@ -214,10 +214,10 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":true,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      little-man-moving_0: 1898839877
-      little-man-moving_1: -1630030631
-      little-man-moving_2: 1386816951
-      little-man-moving_3: -1288157183
+      little-man-moving_0: -1630030631
+      little-man-moving_1: 1386816951
+      little-man-moving_2: -1288157183
+      little-man-moving_3: 1898839877
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
