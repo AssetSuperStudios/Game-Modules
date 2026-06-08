@@ -31,6 +31,12 @@ public class ButtonClick : MonoBehaviour
         canvasControls.sortingOrder = 0;
         canvasCredits.sortingOrder = 0;
         canvasExit.sortingOrder = 0;
+
+        buttonGraphics.interactable = false;
+        buttonAudio.interactable = true;
+        buttonControls.interactable = true;
+        buttonCredits.interactable = true;
+        buttonExit.interactable = true;
     }
 
     void OnClickAudio()
@@ -41,6 +47,12 @@ public class ButtonClick : MonoBehaviour
         canvasControls.sortingOrder = 0;
         canvasCredits.sortingOrder = 0;
         canvasExit.sortingOrder = 0;
+
+        buttonGraphics.interactable = true;
+        buttonAudio.interactable = false;
+        buttonControls.interactable = true;
+        buttonCredits.interactable = true;
+        buttonExit.interactable = true;
     }
 
         void OnClickControls()
@@ -51,6 +63,12 @@ public class ButtonClick : MonoBehaviour
         canvasControls.sortingOrder = 5;
         canvasCredits.sortingOrder = 0;
         canvasExit.sortingOrder = 0;
+
+        buttonGraphics.interactable = true;
+        buttonAudio.interactable = true;
+        buttonControls.interactable = false;
+        buttonCredits.interactable = true;
+        buttonExit.interactable = true;
     }
 
     void OnClickCredits()
@@ -61,6 +79,12 @@ public class ButtonClick : MonoBehaviour
         canvasControls.sortingOrder = 0;
         canvasCredits.sortingOrder = 5;
         canvasExit.sortingOrder = 0;
+
+        buttonGraphics.interactable = true;
+        buttonAudio.interactable = true;
+        buttonControls.interactable = true;
+        buttonCredits.interactable = false;
+        buttonExit.interactable = true;
     }
 
     void OnClickExit()
@@ -71,6 +95,12 @@ public class ButtonClick : MonoBehaviour
         canvasControls.sortingOrder = 0;
         canvasCredits.sortingOrder = 0;
         canvasExit.sortingOrder = 5;
+
+        buttonGraphics.interactable = true;
+        buttonAudio.interactable = true;
+        buttonControls.interactable = true;
+        buttonCredits.interactable = true;
+        buttonExit.interactable = false;
     }
 
 }
