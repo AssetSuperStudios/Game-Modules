@@ -2955,23 +2955,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2170546785885891944, guid: e8dee47627272014881ef02209e95fd2, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: -0.23055555
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2170546785885891944, guid: e8dee47627272014881ef02209e95fd2, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.18854168
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4573939147059042461, guid: e8dee47627272014881ef02209e95fd2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 590.2869
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4573939147059042461, guid: e8dee47627272014881ef02209e95fd2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00003
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4573939147059042461, guid: e8dee47627272014881ef02209e95fd2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 586.9579
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 4573939147059042461, guid: e8dee47627272014881ef02209e95fd2, type: 3}
       propertyPath: m_LocalRotation.w
