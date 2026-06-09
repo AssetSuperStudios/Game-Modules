@@ -96,6 +96,8 @@ public class ButtonClick : MonoBehaviour
         canvasCredits.sortingOrder = 0;
         canvasExit.sortingOrder = 5;
 
+        canvasExit.gameObject.SetActive(false);
+
         buttonGraphics.interactable = true;
         buttonAudio.interactable = true;
         buttonControls.interactable = true;
