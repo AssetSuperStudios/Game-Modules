@@ -230,7 +230,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
@@ -273,8 +273,8 @@ MonoBehaviour:
   m_AssetsPPU: 100
   m_RefResolutionX: 1920
   m_RefResolutionY: 1080
-  m_CropFrame: 0
-  m_GridSnapping: 0
+  m_CropFrame: 2
+  m_GridSnapping: 2
   m_FilterMode: 0
   m_UpscaleRT: 0
   m_PixelSnapping: 0
@@ -475,7 +475,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1898839877, guid: f5b4c238713056f4a9550be3923116cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -695,7 +695,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_MaskInteraction: 0
   m_Sprite: {fileID: -4364034832326165938, guid: cf538a81fc668ac43a116372d551c924, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
