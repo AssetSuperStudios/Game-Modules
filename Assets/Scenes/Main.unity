@@ -259,6 +259,7 @@ GameObject:
   - component: {fileID: 609536019}
   - component: {fileID: 609536020}
   - component: {fileID: 609536021}
+  - component: {fileID: 609536022}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -401,6 +402,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &609536022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609536016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77e4bd1721e2fb341ae14d491ebb13ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  player: {fileID: 0}
+  followMode: 0
+  followSpeed: 5
+  aheadDistance: 5
+  maxAheadDistanceX: 8
+  maxAheadDistanceY: 5
+  turnSmoothTime: 0.3
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,11 +484,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2170546785885891944, guid: e8dee47627272014881ef02209e95fd2, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0
+      value: -0.056701034
       objectReference: {fileID: 0}
     - target: {fileID: 2170546785885891944, guid: e8dee47627272014881ef02209e95fd2, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 1
+      value: 0.99999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 2170546785885891944, guid: e8dee47627272014881ef02209e95fd2, type: 3}
+      propertyPath: m_NormalizedViewPortRect.height
+      value: 1.1134021
       objectReference: {fileID: 0}
     - target: {fileID: 4573939147059042461, guid: e8dee47627272014881ef02209e95fd2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -513,8 +537,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2005289919036366392, guid: e8dee47627272014881ef02209e95fd2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 987318730}
   m_SourcePrefab: {fileID: 100100000, guid: e8dee47627272014881ef02209e95fd2, type: 3}
+--- !u!1 &987318729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2005289919036366392, guid: e8dee47627272014881ef02209e95fd2, type: 3}
+  m_PrefabInstance: {fileID: 987318728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &987318730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987318729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77e4bd1721e2fb341ae14d491ebb13ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FollowPlayer
+  player: {fileID: 609536018}
+  followMode: 0
+  followSpeed: 3.5
+  aheadDistance: 0.7
+  maxAheadDistanceX: 10
+  maxAheadDistanceY: 8
+  turnSmoothTime: 0.55
 --- !u!1 &1033195540
 GameObject:
   m_ObjectHideFlags: 0
