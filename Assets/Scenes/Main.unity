@@ -417,7 +417,6 @@ MonoBehaviour:
   player: {fileID: 0}
   followMode: 0
   followSpeed: 5
-  aheadDistance: 5
   maxAheadDistanceX: 8
   maxAheadDistanceY: 5
   turnSmoothTime: 0.3
@@ -560,9 +559,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowPlayer
   player: {fileID: 609536018}
-  followMode: 0
+  followMode: 2
   followSpeed: 3.5
-  aheadDistance: 0.7
   maxAheadDistanceX: 10
   maxAheadDistanceY: 8
   turnSmoothTime: 0.55
