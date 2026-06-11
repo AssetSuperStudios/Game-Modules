@@ -19,7 +19,7 @@ public class FollowPlayer : MonoBehaviour
 
     [Header("Turn Smoothness")]
     [Tooltip("How long it takes (in seconds) for the camera to slide to its new look-ahead position. Higher = smoother turning.")]
-    public float turnSmoothTime = 0.6f; 
+    public float turnSmoothTime = 0.55f; 
 
     private Vector3 currentAheadOffset;
     private Vector3 offsetVelocity; // Used internally by SmoothDamp
