@@ -94,25 +94,20 @@ public class ButtonClick : MonoBehaviour
     void OnClickExit()
     {
         // Debug.Log("You have changed the Canvas to Exit");
-        canvasGraphics.sortingOrder = 0;
-        canvasAudio.sortingOrder = 0;
-        canvasControls.sortingOrder = 0;
-        canvasCredits.sortingOrder = 0;
-        canvasExit.sortingOrder = 5;
-
         canvasExit.gameObject.SetActive(false);
-
-        buttonGraphics.interactable = true;
-        buttonAudio.interactable = true;
-        buttonControls.interactable = true;
-        buttonCredits.interactable = true;
-        buttonExit.interactable = false;
     }
 
     void OnClickEnter()
     {
         // Debug.Log("You have opened the settings menu");
         canvasExit.gameObject.SetActive(true);
+
+        AudioSource buttonClickSound = buttonEnter.GetComponent<AudioSource>();
+
+        if (buttonClickSound != null)
+        {
+            buttonClickSound.Play();
+        }
     }
 
 }
