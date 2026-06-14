@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+// Make sure this script is always loaded
+
 public class ButtonClick : MonoBehaviour
 {
     public Button buttonGraphics;
@@ -13,6 +15,7 @@ public class ButtonClick : MonoBehaviour
     public Canvas canvasCredits;
     public Button buttonExit;
     public Canvas canvasExit;
+    public Button buttonEnter;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,6 +24,7 @@ public class ButtonClick : MonoBehaviour
         buttonControls.onClick.AddListener(OnClickControls);
         buttonCredits.onClick.AddListener(OnClickCredits);
         buttonExit.onClick.AddListener(OnClickExit);
+        buttonEnter.onClick.AddListener(OnClickEnter);
     }
 
     void OnClickGraphics()
@@ -103,6 +107,12 @@ public class ButtonClick : MonoBehaviour
         buttonControls.interactable = true;
         buttonCredits.interactable = true;
         buttonExit.interactable = false;
+    }
+
+    void OnClickEnter()
+    {
+        // Debug.Log("You have opened the settings menu");
+        canvasExit.gameObject.SetActive(true);
     }
 
 }

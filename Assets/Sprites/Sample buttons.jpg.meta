@@ -1,0 +1,549 @@
+fileFormatVersion: 2
+guid: 8ba44f96ba5c80d4aa127f16f69ad1db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3901498543126062002
+    second: Sample buttons_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Button_Start
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2960
+        width: 2390
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 199, y: 200, z: 273, w: 199}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3abb20148e42630800000000000000
+      internalID: 3901498543126062002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Close
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2055
+        width: 2395
+        height: 645
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 199, y: 205, z: 278, w: 199}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316c29c493b64a24ba8e8ba8ad1d815d
+      internalID: -130780701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Back
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1152
+        width: 2385
+        height: 634
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 199, y: 199, z: 273, w: 194}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6aa94e091b121240b8107c94258ba91
+      internalID: -1920630332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Level
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 250
+        width: 2390
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 194, y: 203, z: 278, w: 194}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1476ca72ea8f24fb1a4d681bb380a1
+      internalID: 1451778194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Next
+      rect:
+        serializedVersion: 2
+        x: 3944
+        y: 1153
+        width: 1829
+        height: 639
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 204, y: 199, z: 278, w: 204}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f45da045cb2e484fb4f78ce0cd97e8f
+      internalID: -1457212397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Play
+      rect:
+        serializedVersion: 2
+        x: 3944
+        y: 252
+        width: 1829
+        height: 634
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 199, y: 199, z: 273, w: 194}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185d91629f596964a8914f277ccd89dc
+      internalID: 873720017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Options
+      rect:
+        serializedVersion: 2
+        x: 5974
+        y: 1470
+        width: 2395
+        height: 912
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 199, y: 210, z: 273, w: 204}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34015c283e5497849bd56434dda8bb43
+      internalID: 1579354484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Stop
+      rect:
+        serializedVersion: 2
+        x: 3950
+        y: 2956
+        width: 1834
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 202, y: 203, z: 282, w: 198}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a3ac847bb5fee43b33b1b0ed5bea9c
+      internalID: 1446845515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Exit
+      rect:
+        serializedVersion: 2
+        x: 3950
+        y: 2057
+        width: 1830
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 198, y: 202, z: 278, w: 198}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a25b071b58300429a34276ba316dcb
+      internalID: 519275947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Star
+      rect:
+        serializedVersion: 2
+        x: 5981
+        y: 250
+        width: 2387
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 196, y: 198, z: 278, w: 198}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496e58daf2da2b74db526a1e3b110cfd
+      internalID: -88640039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Setting
+      rect:
+        serializedVersion: 2
+        x: 5980
+        y: 2698
+        width: 2392
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 198, y: 194, z: 278, w: 205}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be937b7811e6e3547abdf5e48b17a074
+      internalID: -710048267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Heart
+      rect:
+        serializedVersion: 2
+        x: 8573
+        y: 2690
+        width: 989
+        height: 909
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 202, y: 206, z: 274, w: 198}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08110d14ee88ca4bb45be8dd0f7e455
+      internalID: 1133854029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_X
+      rect:
+        serializedVersion: 2
+        x: 8577
+        y: 1470
+        width: 985
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 198, y: 206, z: 281, w: 198}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e0bb07cc655ea4493d4b06cc7c0676
+      internalID: -740572005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shutdown
+      rect:
+        serializedVersion: 2
+        x: 8573
+        y: 253
+        width: 989
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 202, y: 194, z: 278, w: 206}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69dfdecd12984f40a7e5e15cc81ecb2
+      internalID: 439962747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Purple
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 2963
+        width: 723
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 202, y: 201, z: 278, w: 198}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ede6c3f114310b4cb2a4e873df4b6f9
+      internalID: -140389489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Orange
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 2061
+        width: 723
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 198, y: 197, z: 278, w: 201}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f955dd6fb12d52c43b9792c6068fab21
+      internalID: -379443329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Pink
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 1156
+        width: 719
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 194, y: 197, z: 282, w: 202}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae48945843deac4eaf2db632fe2ddfc
+      internalID: 210070143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Blue
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 250
+        width: 715
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 198, y: 202, z: 278, w: 202}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878014fa476a3bd428c479e5f1ce9eff
+      internalID: 1858066681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ecc09d70504ed504ab9ad220e0244c8a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Button_Back: -1920630332
+      Button_Blue: 1858066681
+      Button_Close: -130780701
+      Button_Exit: 519275947
+      Button_Heart: 1133854029
+      Button_Level: 1451778194
+      Button_Next: -1457212397
+      Button_Options: 1579354484
+      Button_Orange: -379443329
+      Button_Pink: 210070143
+      Button_Play: 873720017
+      Button_Purple: -140389489
+      Button_Setting: -710048267
+      Button_Shutdown: 439962747
+      Button_Star: -88640039
+      Button_Start: 3901498543126062002
+      Button_Stop: 1446845515
+      Button_X: -740572005
+      N: -1457212397
+      '[TASK] Add a settings button that appears when the menu exits and opens it when clicked': -1457212397
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
