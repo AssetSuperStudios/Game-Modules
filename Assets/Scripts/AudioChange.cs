@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class AudioChange : MonoBehaviour
 {
@@ -55,5 +56,11 @@ public class AudioChange : MonoBehaviour
         slider.value = PlayerPrefs.GetFloat(keyString);
         // possible issue :: Does not trigger the onValueChanged function of the sliders. If it does not, add a manual Set_Volume after this
         // It does
+    }
+
+    // Used by Button_Save's OnClick Component
+    // Another option, find a way to get an OnPointerUp event listener for sliders then trigger this function with that
+    public void ButtonSave() {
+        PlayerPrefs.Save();
     }
 }
