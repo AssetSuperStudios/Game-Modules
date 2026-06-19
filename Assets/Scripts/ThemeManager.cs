@@ -3,6 +3,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "ThemeManager", menuName = "Scriptable Objects/ThemeManager")]
 public class ThemeManager : ScriptableObject
 {
+    // Set the theme colors for the game
+
     // Punch Red
     public Color32 primaryColor = new Color32(255, 0, 58, 255);
     // Carmine

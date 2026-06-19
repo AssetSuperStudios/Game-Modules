@@ -3,6 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "KeyBindActions", menuName = "Scriptable Objects/KeyBindActions")]
 public class KeyBindActions : ScriptableObject
 {
+    // List of KeyCode actions
     public KeyCode moveUp = KeyCode.W;
     public KeyCode moveDown = KeyCode.S;
     public KeyCode moveLeft = KeyCode.A;
@@ -10,6 +11,9 @@ public class KeyBindActions : ScriptableObject
     public KeyCode actFire = KeyCode.LeftControl;
     public KeyCode actAltFire = KeyCode.LeftShift;
     public KeyCode actJump = KeyCode.Space;
+
+    // The following are the names of the PlayerPrefs used in this script
+    // "keyMoveUp", "keyMoveDown", "keyMoveLeft", "keyMoveRight", "keyActFire", "keyActAltFire", "keyActJump"
 
     // Sets the current keys to the saved PlayerPrefs, if it does not have any stored, it uses the default (int)KeyCode
     public void LoadKeys() {
@@ -35,6 +39,7 @@ public class KeyBindActions : ScriptableObject
         PlayerPrefs.Save();
     }
 
+    // INSTRUCTIONS ON HOW TO USE THE NEW KEYCODE ACTIONS IN THE GAME //
     // Add this "[SerializeField] KeyBindActions keyActionsList;" and drag the keyActionsList to your script
     // Use "Input.GetKey(<name>.<keycode>)" to check for the button press
     // KeyBindActions <name> => this script
